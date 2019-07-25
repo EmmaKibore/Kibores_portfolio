@@ -45,14 +45,13 @@ body {
 <body>
 <div id="mySidenav" class="sidenav">
  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- <a href="#">About Me</a>
- <a href="#">My Projects</a>
- <a href="#">Clients</a>
- <a href="#">Contact</a>
+ <a href="about.html">About Me</a>
+ <a href="skills.html">Skills</a>
+ <a href="projects.html">My Projects</a>
+ <a href="contacts.html">Contacts</a>
 </div>
-<h2>Right-sided Navigation</h2>
-<p>Click on the element below to open the right-sided navigation menu.</p>
-<span style="font-size: 30px; cursor:pointer; align-content:center;justify-content:center;" onclick="openNav()">&#9776; open</span>
+
+
 <script>
 function openNav() {
  document.getElementById("mySidenav").style.width = "250px";
@@ -61,11 +60,17 @@ function closeNav() {
  document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-</body>
-</html>
+<span style="font-size: 30px; cursor:pointer; align-content:center;justify-content:center;" onclick="openNav()">&#9776; MENU</span>
+
+
 
 <div style="padding-top: 680px; height: 100%;  background-image: url(https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: cover; opacity:0.9 ;" class="container-fluid"> 
+    
 <h1 style="font-size: 75px; margin-top: -400px;margin-left:300px; color: white;"class="page-title">
     Emma Kibore
+    <hr>
 </h1>
+<p style="margin-left:350px; color: white;font-size: 30px">Fullstack developer</p>  
 </div>
+</body>
+</html>
